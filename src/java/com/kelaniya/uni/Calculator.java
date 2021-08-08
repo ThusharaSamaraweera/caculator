@@ -11,7 +11,7 @@ public class Calculator {
         double num1, num2, result;
          try {
              List<Double> numArr = new ArrayList<Double>();
-             File file = new File("numbers.txt");
+             File file = new File(".\\src\\numbers.txt");
              Scanner input = new Scanner(file);
 
              while (input.hasNextLine()){
@@ -52,6 +52,7 @@ public class Calculator {
                      break;
              }
          } catch (FileNotFoundException e) {
+             System.out.println("An error occurred");
              e.printStackTrace();
          }
     }
