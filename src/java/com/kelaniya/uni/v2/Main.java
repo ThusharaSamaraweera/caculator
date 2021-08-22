@@ -1,6 +1,6 @@
-package com.kelaniya.uni;
+package com.kelaniya.uni.v2;
 
-public class HelloWorld {
+public class Main {
     public static void main(String[] args) {
         System.out.println("hello world1");
     }
