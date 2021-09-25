@@ -2,7 +2,9 @@ package com.kelaniya.uni.v5.operation;
 
 // Factory design pattern
 public class OperationFactory {
+
     public Operation getInstance(String operation){
+
         Operation operation1 = null;
         if(operation.equals("add")){
             operation1 = new AddOperation();
