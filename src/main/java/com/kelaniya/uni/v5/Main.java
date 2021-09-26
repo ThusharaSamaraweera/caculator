@@ -7,10 +7,8 @@ import com.kelaniya.uni.v5.operation.OperationFactory;
 import com.kelaniya.uni.v5.repository.FileNumberRepository;
 import com.kelaniya.uni.v5.repository.NumberRepository;
 
-import java.io.IOException;
-
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         CommandLineInputs inputs = new CommandLineInputs(args);
 
